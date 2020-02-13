@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        
+        <title>TODO supply a title</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       
+        <link rel="stylesheet" href="../Lib/bootstrap-4.4.1-dist/css/bootstrap-reboot.min.css">
+         <link rel="stylesheet" href="../Lib/bootstrap-4.4.1-dist/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="../Lib/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/responsivePage.css">
+        <link rel="stylesheet" href="css/caligrafiaOrtografia.css">
+        <link rel="stylesheet" href="css/selectPickerStyle.css">
+        <link rel = "stylesheet" href = "../Lib/bootstrap-select-1.13.9/css/bootstrap-select.css">
+ 
+    </head>
+    <body>
+        
+            <!--Start Barra de accion-->
+            <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand text-light" href="#">OrdenesDeTrabajo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active text-light">
+                      <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                      <a class="nav-link text-light" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link text-light dropdown-toggle" href="#" id="lolll" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="lolll">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+            <!--End Barra de accion-->
+            <!--Start TABS-->
+            <div class="card text-center">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+            <!--End TABS-->
+            <!--Start INFORMACION DEL VEHICULO-->
+            <div class="container pt-5">
+                <div class="card font-md-size-tablets">
+                    <h6 class="card-header font-md-size-title-tablets">INFORMACION DEL VEHICULO</h6>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm ">
+                                <span>Fecha</span><br>
+                                <input type="date" name="fecha" class="custom-select-sm form-control input-group" />
+                            </div>
+                            <div class="col-sm">
+                                <span>Empresa</span><br>
+                                <select name="empresa" data-live-search="true" class="selectpicker bootstrap-select custom-select-sm form-control show-tick" data-size="4">
+                                    
+                                    <option value="#" class="options">queso0</option>
+                                    <option value="#" class="options">queso1</option>
+                                    <option value="#" class="options">queso2</option>
+                                    <option value="#" class="options">queso3</option>
+                                    <option value="#" class="options">queso4</option>
+                                    <option value="#" class="options">queso5</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="col-sm ">
+                                <span>Placa</span><br>
+                                <select name="placaVehiculo" data-live-search="true" class="selectpicker custom-select-sm form-control input-group" >
+                                    <option value="#" class="options">queso0</option>
+                                    <option value="#" class="options">queso1</option>
+                                    <option value="#" class="options">queso2</option>
+                                    <option value="#" class="options">queso3</option>
+                                    <option value="#" class="options">queso4</option>
+                                    <option value="#" class="options">queso5</option>
+                                </select>
+                            </div>
+                            <div class="col-sm ">
+                                <span>Numero interno</span><br>
+                                <select name="numeroInterno" class="custom-select-sm form-control input-group" >
+                                    <option value="#">rtyry</option>
+                                    <option value="#">rtyry</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-8 ">
+                                <span>Nombre completo</span><br>
+                                <input type="text" name="nombreCompleto" class="custom-select-sm form-control input-group" />
+                            </div>
+                            <div class="col-sm ">
+                                <span>Numero de celular</span><br>
+                                <input type="text" name="numeroCelular" class="custom-select-sm form-control input-group" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <span>Version</span><br>
+                                <select name="version" class="custom-select-sm form-control input-group" >
+                                    <option value="#"></option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End INFORMACION DEL VEHICULO-->
+            <!--Start INFORMACION PROPIETARIO-->
+            <div class="container pt-1">
+                <div class="card font-md-size-tablets">
+                    <h5 class="card-header font-md-size-title-tablets">INFORMACION PROPIETARIO</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <span>Nombre completo</span><br>
+                                <input type="text" name="nombrePropietario" class="custom-select-sm form-control input-group" />
+                            </div>
+                            <div class="col-sm ">
+                                <span>Numero de celular</span><br>
+                                <input type="text" name="numeroCelularPropietario" class="custom-select-sm form-control input-group" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End INFORMACION PROPIETARIO-->
+            <!--Start INFORMACION INGRESO/SALIDA
+            <div class="container pt-1">
+                <div class="card font-md-size-tablets">
+                    <h5 class="card-header font-md-size-title-tablets">INFORMACION INGRESO/SALIDA</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm ">
+                                <span>Hora de estrada</span><br>
+                                <input type="time" name="horaDeEntrada" class="custom-select-sm form-control input-group" />
+                            </div>
+                            <div class="col-sm ">
+                                <span>Hora de salida</span><br>
+                                <input type="time" name="horaDeSalida" class="custom-select-sm form-control input-group" />
+                            </div>
+                            <div class="col-sm ">
+                                <span>Numeracion</span><br>
+                                <input type="text" name="numeracion" class="custom-select-sm form-control input-group" />
+                            </div>
+                            <div class="col-sm ">
+                                <span>Sello</span><br>
+                                <input type="text" name="sello" class="custom-select-sm form-control input-group" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-8 ">
+                                <span>imagen del vehiculo</span><br>
+                                <img src="css/espacio-estrellas-naturaleza-planetas-wallpaper-preview.jpg" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-sm ">
+                                <br>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control font-md-size-tablets" aria-label="Text input with checkbox" value="Luces internas" />
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for following text input" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control font-md-size-tablets" aria-label="Text input with checkbox" value="Luces externas" />
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for following text input" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control font-md-size-tablets" aria-label="Text input with checkbox" value="Apertura de puerto" />
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for following text input" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control font-md-size-tablets" aria-label="Text input with checkbox" value="Pito" />
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for following text input" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control font-md-size-tablets" aria-label="Text input with checkbox" value="Golpes" />
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for following text input" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control font-md-size-tablets" aria-label="Text input with checkbox" value="Rayones">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for following text input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="p-5">
+                
+            </div>
+            <!---End INFORMACION INGRESO/SALIDA-->
+            
+    </body>
+    <footer>
+        
+        <script src="../Lib/jquery-3.4.1.min.js"></script>
+        
+        <script src="../Lib/popper.min.js"></script>
+        <script src="../Lib/bootstrap-4.4.1-dist/js/bootstrap.min.js" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></script>
+        <script src="../Lib/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../Lib/bootstrap-select-1.13.9/js/bootstrap-select.js"></script>
+        <script src="../Controlador/ControladorJavaScript/ControladorSelectPicker/ControladorSelectPicker.js"></script>
+        
+        
+    </footer>
+</html>
